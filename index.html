@@ -1,26 +1,45 @@
-nexusuniversity/
-│
-├── index.html              (Homepage)
-├── courses.html            (Courses page)
-├── scholarships.html       (Scholarships & Partnerships page)
-├── apply.html              (Apply Now page)
-├── media.html              (Media page)
-├── contact.html            (Contact page)
-├── about.html              (About Us page)
-│
-├── css/
-│   └── style.css           (Glossy styles: colors, buttons, layout)
-│
-├── js/
-│   └── script.js           (Optional: form validation, animations)
-│
-├── images/
-│   ├── logo.png            (Nexus logo)
-│   ├── favicon.ico         (Browser tab icon)
-│   ├── president.jpg       (Coffee portrait)
-│   ├── flags/              (All partner flags)
-│   └── flyers/             (All programme flyers)
-│
-└── pdf/
-    ├── partnership-pack.pdf
-    └── application-pack.pdf
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nexus University</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Nexus Logo" width="150">
+    <h1>Welcome to Nexus University</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="courses.html">Courses</a> |
+      <a href="scholarships.html">Scholarships</a> |
+      <a href="apply.html">Apply Now</a> |
+      <a href="media.html">Media</a> |
+      <a href="contact.html">Contact</a> |
+      <a href="about.html">About Us</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Our Visionary Leader</h2>
+    <img src="images/president.jpg" alt="President Portrait" width="300">
+    <p>Driven by vision and changing lives.</p>
+  </section>
+
+  <section>
+    <h2>Program Flyers</h2>
+    <img src="images/flyers/programme1.jpg" alt="Programme Flyer 1" width="400">
+    <img src="images/flyers/programme2.jpg" alt="Programme Flyer 2" width="400">
+  </section>
+
+  <section>
+    <h2>Introduction Video</h2>
+    <video width="600" controls>
+      <source src="videos/intro.mp4" type="video/mp4">
+    </video>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Nexus University. All rights reserved.</p>
+  </footer>
+</body>
+</html>
