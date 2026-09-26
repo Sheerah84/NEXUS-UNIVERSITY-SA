@@ -3,82 +3,1097 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Courses - Nexus University</title>
+  <title>86 Courses | Nexus University | British & Global Programmes</title>
   <link rel="stylesheet" href="style.css.css" />
 </head>
 <body>
   <header class="site-header">
     <div class="container nav">
-      <div class="brand"><span class="brand-mark">NX</span> Nexus University</div>
+      <a class="brand" href="index.html">
+        <img src="nexus logo.jpeg" alt="Nexus University logo" class="site-logo" />
+        <span>Nexus University</span>
+      </a>
       <nav class="main-nav" aria-label="Main navigation">
         <a href="index.html">Home</a>
         <a href="courses.html">Courses</a>
+        <a href="facilities.html">Facilities</a>
         <a href="scholarships.html">Scholarships</a>
+        <a href="hospitality.html">Hospitality</a>
         <a href="apply.html">Apply Now</a>
         <a href="media.html">Media</a>
         <a href="contact.html">Contact</a>
-        <a href="about.html">About Us</a>
+        <a href="about.html">About</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <section class="page-hero small-hero">
+    <section class="page-hero">
       <div class="container">
-        <span class="eyebrow">Study options</span>
-        <h1>Explore our programmes.</h1>
+        <span class="eyebrow">Academic Excellence</span>
+        <h1>86 Premium Courses</h1>
+        <p>Top-up degrees, Masters, and Honours programmes from leading British universities. Flexible, affordable, globally recognised qualifications.</p>
       </div>
     </section>
 
     <section class="section">
       <div class="container">
-        <div class="card-grid three-up">
-          <article class="program-card">
-            <div class="program-image program-one"></div>
-            <div class="program-body">
-              <h3>Business & Management</h3>
-              <p>Build strong foundations in leadership, strategy, and entrepreneurship.</p>
+        <div class="course-intro">
+          <h2>Study at Leading British Universities</h2>
+          <p>Nexus University partners with prestigious UK institutions to deliver top-up degrees, Masters programmes, and Honours qualifications. All courses are accredited, recognised globally, and designed for working professionals.</p>
+          
+          <div class="course-stats">
+            <div class="stat">
+              <strong>86</strong>
+              <span>Courses Available</span>
             </div>
-          </article>
-
-          <article class="program-card">
-            <div class="program-image program-two"></div>
-            <div class="program-body">
-              <h3>Technology & Innovation</h3>
-              <p>Prepare for the future through digital skills, tools, and modern learning.</p>
+            <div class="stat">
+              <strong>20+</strong>
+              <span>Universities</span>
             </div>
-          </article>
-
-          <article class="program-card">
-            <div class="program-image program-three"></div>
-            <div class="program-body">
-              <h3>Health & Social Impact</h3>
-              <p>Develop an understanding of care, community, and real-world influence.</p>
+            <div class="stat">
+              <strong>£3,150 - £18,000</strong>
+              <span>Fee Range</span>
             </div>
-          </article>
+            <div class="stat">
+              <strong>4-36</strong>
+              <span>Month Durations</span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="section alt-section">
       <div class="container">
-        <div class="section-heading left">
-          <span class="eyebrow dark">Programme highlights</span>
-          <h2>Study pathways built for global opportunities.</h2>
+        <div class="filter-section">
+          <h2>Browse All Programmes</h2>
+          <p>Filter by university or search for your ideal course below.</p>
+          
+          <div class="filter-controls">
+            <button class="filter-btn active" data-filter="all">All Courses (86)</button>
+            <button class="filter-btn" data-filter="wolverhampton">Wolverhampton (21)</button>
+            <button class="filter-btn" data-filter="portsmouth">Portsmouth (9)</button>
+            <button class="filter-btn" data-filter="anglia-ruskin">Anglia Ruskin (8)</button>
+            <button class="filter-btn" data-filter="leicester">University of Leicester (6)</button>
+            <button class="filter-btn" data-filter="arden">Arden University (7)</button>
+            <button class="filter-btn" data-filter="other">Other Universities (29)</button>
+          </div>
         </div>
-        <div class="info-grid">
-          <div class="info-card">
-            <h3>Flexible admissions</h3>
-            <p>We support students through guidance, applications, and enrollment planning.</p>
+
+        <div class="courses-grid" id="coursesGrid">
+          <!-- Wolverhampton -->
+          <div class="course-card" data-filter="wolverhampton">
+            <div class="course-header">
+              <h3>MSc Psychology Top-Up</h3>
+              <span class="university">Wolverhampton</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£3,600</span>
+              <span class="duration">6-8 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
           </div>
-          <div class="info-card">
-            <h3>Visa & relocation support</h3>
-            <p>Clear guidance for international study planning and next steps.</p>
+
+          <div class="course-card" data-filter="wolverhampton">
+            <div class="course-header">
+              <h3>MBA Top-Up</h3>
+              <span class="university">Wolverhampton</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£3,550</span>
+              <span class="duration">6 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
           </div>
-          <div class="info-card">
-            <h3>Career-ready learning</h3>
-            <p>Programs shaped around modern goals, employability, and personal growth.</p>
+
+          <div class="course-card" data-filter="wolverhampton">
+            <div class="course-header">
+              <h3>MSc Project Management Top-Up</h3>
+              <span class="university">Wolverhampton</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£3,550</span>
+              <span class="duration">6-8 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
           </div>
+
+          <div class="course-card" data-filter="wolverhampton">
+            <div class="course-header">
+              <h3>BA Management Top-Up</h3>
+              <span class="university">Wolverhampton</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£4,250</span>
+              <span class="duration">12 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="wolverhampton">
+            <div class="course-header">
+              <h3>LLM Law Top-Up</h3>
+              <span class="university">Wolverhampton</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£3,650</span>
+              <span class="duration">10 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="wolverhampton">
+            <div class="course-header">
+              <h3>MA SPM & HR Top-Up</h3>
+              <span class="university">Wolverhampton</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£3,600</span>
+              <span class="duration">6-8 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="wolverhampton">
+            <div class="course-header">
+              <h3>LLB Hons Law Top-Up</h3>
+              <span class="university">Wolverhampton</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£4,450</span>
+              <span class="duration">12 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="wolverhampton">
+            <div class="course-header">
+              <h3>MSc Cyber Security Top-Up</h3>
+              <span class="university">Wolverhampton</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£3,950</span>
+              <span class="duration">8-10 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="wolverhampton">
+            <div class="course-header">
+              <h3>MSc Data Science Top-Up</h3>
+              <span class="university">Wolverhampton</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£3,850</span>
+              <span class="duration">8 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="wolverhampton">
+            <div class="course-header">
+              <h3>MA in Education Top-Up</h3>
+              <span class="university">Wolverhampton</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£3,900</span>
+              <span class="duration">8 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="wolverhampton">
+            <div class="course-header">
+              <h3>MSc Accounting & Finance Top-Up</h3>
+              <span class="university">Wolverhampton</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£3,400</span>
+              <span class="duration">6 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="wolverhampton">
+            <div class="course-header">
+              <h3>BA Early Childhood Top-Up</h3>
+              <span class="university">Wolverhampton</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£4,250</span>
+              <span class="duration">12 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="wolverhampton">
+            <div class="course-header">
+              <h3>BSc Cyber Security Top-Up</h3>
+              <span class="university">Wolverhampton</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£4,450</span>
+              <span class="duration">12 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="wolverhampton">
+            <div class="course-header">
+              <h3>BSc Nursing Top-Up</h3>
+              <span class="university">Wolverhampton</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£4,750</span>
+              <span class="duration">12 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="wolverhampton">
+            <div class="course-header">
+              <h3>BSc Computer Science Top-Up</h3>
+              <span class="university">Wolverhampton</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£4,350</span>
+              <span class="duration">12 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="wolverhampton">
+            <div class="course-header">
+              <h3>MSc Artificial Intelligence Top-Up</h3>
+              <span class="university">Wolverhampton</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£3,650</span>
+              <span class="duration">6-8 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="wolverhampton">
+            <div class="course-header">
+              <h3>MSc Construction Project Management Top-Up</h3>
+              <span class="university">Wolverhampton</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£3,450</span>
+              <span class="duration">6-8 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="wolverhampton">
+            <div class="course-header">
+              <h3>BSc Accounting & Finance Top-Up</h3>
+              <span class="university">Wolverhampton</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£4,250</span>
+              <span class="duration">12 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="wolverhampton">
+            <div class="course-header">
+              <h3>BA Education Studies Top-Up</h3>
+              <span class="university">Wolverhampton</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£4,550</span>
+              <span class="duration">12 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="wolverhampton">
+            <div class="course-header">
+              <h3>BSc Psychology Top-Up</h3>
+              <span class="university">Wolverhampton</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£4,650</span>
+              <span class="duration">12 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="wolverhampton">
+            <div class="course-header">
+              <h3>BSc Economics and Finance Top-Up</h3>
+              <span class="university">Wolverhampton</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£4,500</span>
+              <span class="duration">12 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <!-- Portsmouth -->
+          <div class="course-card" data-filter="portsmouth">
+            <div class="course-header">
+              <h3>BA HONS Top-Up</h3>
+              <span class="university">Portsmouth</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£4,100</span>
+              <span class="duration">12 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="portsmouth">
+            <div class="course-header">
+              <h3>MBA Top-Up (CMI L7)</h3>
+              <span class="university">Portsmouth</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£3,150</span>
+              <span class="duration">6 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="portsmouth">
+            <div class="course-header">
+              <h3>MBA in Project Management Top-Up (CMI L7)</h3>
+              <span class="university">Portsmouth</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£3,150</span>
+              <span class="duration">6 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="portsmouth">
+            <div class="course-header">
+              <h3>MBA in HRM Top-Up (CMI L7)</h3>
+              <span class="university">Portsmouth</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£3,150</span>
+              <span class="duration">6 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="portsmouth">
+            <div class="course-header">
+              <h3>MBA in Logistics & SCM Top-Up (CMI L7)</h3>
+              <span class="university">Portsmouth</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£3,150</span>
+              <span class="duration">6 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="portsmouth">
+            <div class="course-header">
+              <h3>MBA in Tourism and Hospitality Top-Up (CMI L7)</h3>
+              <span class="university">Portsmouth</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£3,150</span>
+              <span class="duration">6 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="portsmouth">
+            <div class="course-header">
+              <h3>MBA in Education Management & Leadership Top-Up (CMI L7)</h3>
+              <span class="university">Portsmouth</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£3,250</span>
+              <span class="duration">6 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="portsmouth">
+            <div class="course-header">
+              <h3>MBA in Health & Social Care Management Top-Up (CMI L7)</h3>
+              <span class="university">Portsmouth</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£3,350</span>
+              <span class="duration">6 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="portsmouth">
+            <div class="course-header">
+              <h3>MBA in Organisational Psychology Top-Up (CMI L7)</h3>
+              <span class="university">Portsmouth</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£3,250</span>
+              <span class="duration">6 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="portsmouth">
+            <div class="course-header">
+              <h3>MBA in Occupational Health & Safety Management Top-Up (CMI L7)</h3>
+              <span class="university">Portsmouth</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£3,250</span>
+              <span class="duration">6 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <!-- Anglia Ruskin -->
+          <div class="course-card" data-filter="anglia-ruskin">
+            <div class="course-header">
+              <h3>MBA Top-Up</h3>
+              <span class="university">Anglia Ruskin</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£7,750 - £7,950</span>
+              <span class="duration">9 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="anglia-ruskin">
+            <div class="course-header">
+              <h3>MBA in AI Top-Up</h3>
+              <span class="university">Anglia Ruskin</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£7,750 - £7,950</span>
+              <span class="duration">9 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="anglia-ruskin">
+            <div class="course-header">
+              <h3>MBA Educational Leadership and Management</h3>
+              <span class="university">Anglia Ruskin</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£4,900</span>
+              <span class="duration">9 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="anglia-ruskin">
+            <div class="course-header">
+              <h3>MSc Project Management</h3>
+              <span class="university">Anglia Ruskin</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£4,000</span>
+              <span class="duration">9 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="anglia-ruskin">
+            <div class="course-header">
+              <h3>MSc Healthcare Management</h3>
+              <span class="university">Anglia Ruskin</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£5,750</span>
+              <span class="duration">9 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="anglia-ruskin">
+            <div class="course-header">
+              <h3>LLM International Business & Commercial Law</h3>
+              <span class="university">Anglia Ruskin</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£4,250</span>
+              <span class="duration">4 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="anglia-ruskin">
+            <div class="course-header">
+              <h3>BSc HONS Business Management</h3>
+              <span class="university">Anglia Ruskin</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£7,350</span>
+              <span class="duration">9 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="anglia-ruskin">
+            <div class="course-header">
+              <h3>BA HONS Early Childhood</h3>
+              <span class="university">Anglia Ruskin</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£7,250</span>
+              <span class="duration">12 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <!-- University of Leicester -->
+          <div class="course-card" data-filter="leicester">
+            <div class="course-header">
+              <h3>MSc in Finance (Advanced Entry)</h3>
+              <span class="university">University of Leicester</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£7,000</span>
+              <span class="duration">12 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="leicester">
+            <div class="course-header">
+              <h3>MRes in Business and Management (Full Programme)</h3>
+              <span class="university">University of Leicester</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£11,250</span>
+              <span class="duration">12 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="leicester">
+            <div class="course-header">
+              <h3>MA in Media and Public Relations (Full Programme)</h3>
+              <span class="university">University of Leicester</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£15,750</span>
+              <span class="duration">24 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="leicester">
+            <div class="course-header">
+              <h3>MSc in Risk, Crisis and Disaster Management (Full Programme)</h3>
+              <span class="university">University of Leicester</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£15,500</span>
+              <span class="duration">24 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="leicester">
+            <div class="course-header">
+              <h3>MSc in Human Resource Management and Training (Full Programme)</h3>
+              <span class="university">University of Leicester</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£12,750</span>
+              <span class="duration">24 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="leicester">
+            <div class="course-header">
+              <h3>BSc in Human Resource Management (Full 24 or 36 months)</h3>
+              <span class="university">University of Leicester</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£18,000 / £14,000</span>
+              <span class="duration">36 or 24 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <!-- Arden University -->
+          <div class="course-card" data-filter="arden">
+            <div class="course-header">
+              <h3>MBA Top-Up</h3>
+              <span class="university">Arden University</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£3,350</span>
+              <span class="duration">4 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="arden">
+            <div class="course-header">
+              <h3>MSc Health and Care Management</h3>
+              <span class="university">Arden University</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£3,750</span>
+              <span class="duration">6 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="arden">
+            <div class="course-header">
+              <h3>BSc HONS Business Management (On-Campus)</h3>
+              <span class="university">Arden University</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£4,950</span>
+              <span class="duration">12 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="arden">
+            <div class="course-header">
+              <h3>BSc HONS Healthcare Management Top-Up (On-Campus)</h3>
+              <span class="university">Arden University</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£13,000 - €10,500</span>
+              <span class="duration">12 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="arden">
+            <div class="course-header">
+              <h3>BA HONS Business Management Top-Up (On-Campus)</h3>
+              <span class="university">Arden University</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£13,000 - €10,500</span>
+              <span class="duration">12 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="arden">
+            <div class="course-header">
+              <h3>LLB HONS LAW Top-Up (On-Campus)</h3>
+              <span class="university">Arden University</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£13,000 - €10,500</span>
+              <span class="duration">12 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="arden">
+            <div class="course-header">
+              <h3>MSc International Business Management (On-Campus)</h3>
+              <span class="university">Arden University</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£13,500 - €15,000</span>
+              <span class="duration">12 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <!-- Other Universities (Remaining 29 courses) -->
+          <div class="course-card" data-filter="other">
+            <div class="course-header">
+              <h3>MBA Top-Up - Direct Entry</h3>
+              <span class="university">UCLAN</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£3,600</span>
+              <span class="duration">4-6 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="other">
+            <div class="course-header">
+              <h3>LLB HONS Top-Up - Direct Entry</h3>
+              <span class="university">UCLAN</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£4,900</span>
+              <span class="duration">12 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="other">
+            <div class="course-header">
+              <h3>MSc Accounting and Finance Top-Up - Direct Entry</h3>
+              <span class="university">UCLAN</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£4,400</span>
+              <span class="duration">6 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="other">
+            <div class="course-header">
+              <h3>MSc Finance and Management Top-Up</h3>
+              <span class="university">UCLAN</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£4,900</span>
+              <span class="duration">9 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="other">
+            <div class="course-header">
+              <h3>LLB (HONS) - 120 Credits</h3>
+              <span class="university">UCLAN</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£5,950</span>
+              <span class="duration">12 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="other">
+            <div class="course-header">
+              <h3>DBA – Advanced Entry Programme</h3>
+              <span class="university">UCLAN</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£6,000/year</span>
+              <span class="duration">Multi-Year</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="other">
+            <div class="course-header">
+              <h3>DBA – Full Programme</h3>
+              <span class="university">UCLAN</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£6,000/year</span>
+              <span class="duration">4+ Years</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="other">
+            <div class="course-header">
+              <h3>MBA Top-Up Direct Entry</h3>
+              <span class="university">Wolverhampton - Direct</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£3,500</span>
+              <span class="duration">6 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="other">
+            <div class="course-header">
+              <h3>International MBA Top-Up</h3>
+              <span class="university">Wolverhampton</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£4,250</span>
+              <span class="duration">4 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="other">
+            <div class="course-header">
+              <h3>MBA Top-Up</h3>
+              <span class="university">Wrexham</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£3,950</span>
+              <span class="duration">9 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="other">
+            <div class="course-header">
+              <h3>BSc HONS Business Management</h3>
+              <span class="university">Wrexham Glyndwr</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£4,750</span>
+              <span class="duration">9 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="other">
+            <div class="course-header">
+              <h3>BA HONS Computing - 120 Credits</h3>
+              <span class="university">Wrexham Glyndwr</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£4,750</span>
+              <span class="duration">9 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="other">
+            <div class="course-header">
+              <h3>BSc HONS Business Management</h3>
+              <span class="university">Derby</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£7,250</span>
+              <span class="duration">12 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="other">
+            <div class="course-header">
+              <h3>BSc HONS Computing and IT - 120 Credits</h3>
+              <span class="university">Derby</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£6,950</span>
+              <span class="duration">12 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="other">
+            <div class="course-header">
+              <h3>BA HONS Accounting & Finance - 120 Credits</h3>
+              <span class="university">Derby</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£7,250</span>
+              <span class="duration">12 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="other">
+            <div class="course-header">
+              <h3>BA HONS Hospitality Business Management - 120 Credits</h3>
+              <span class="university">Derby</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£7,250</span>
+              <span class="duration">12 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="other">
+            <div class="course-header">
+              <h3>BSc HONS Health & Social Care - 120 Credits</h3>
+              <span class="university">Derby</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£7,250</span>
+              <span class="duration">12 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="other">
+            <div class="course-header">
+              <h3>BSc HONS Business Management</h3>
+              <span class="university">Buckinghamshire</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£3,750 - £4,250</span>
+              <span class="duration">6 - 12 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="other">
+            <div class="course-header">
+              <h3>MBA (Dissertation Only)</h3>
+              <span class="university">Buckinghamshire</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£3,750</span>
+              <span class="duration">6 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="other">
+            <div class="course-header">
+              <h3>BSc HONS Healthcare Management - 120 Credits</h3>
+              <span class="university">Arden</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£4,950</span>
+              <span class="duration">12 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="other">
+            <div class="course-header">
+              <h3>MSc Project Management Top-Up (On-Campus)</h3>
+              <span class="university">Arden</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£13,500 - €15,000</span>
+              <span class="duration">12 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="other">
+            <div class="course-header">
+              <h3>BSc HONS Business Management Studies Top-Up (On-Campus)</h3>
+              <span class="university">University of Europe</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">€8,667.75 / AED 34,672</span>
+              <span class="duration">12 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="other">
+            <div class="course-header">
+              <h3>BSc HONS Software Engineering Top-Up (On-Campus)</h3>
+              <span class="university">University of Europe</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">€8,667.75 / AED 34,672</span>
+              <span class="duration">12 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="other">
+            <div class="course-header">
+              <h3>MBA International Business (On-Campus)</h3>
+              <span class="university">University of Europe</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">€7,199 / AED 28,796</span>
+              <span class="duration">12 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="other">
+            <div class="course-header">
+              <h3>BSc HONS Business Management Top-Up (On-Campus)</h3>
+              <span class="university">University of Law</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£17,550 / £15,050</span>
+              <span class="duration">12 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="other">
+            <div class="course-header">
+              <h3>LLB HONS LAW Top-Up (On-Campus)</h3>
+              <span class="university">University of Law</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£17,550 / £15,050</span>
+              <span class="duration">12 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="other">
+            <div class="course-header">
+              <h3>MSc Leadership and HRM (On-Campus London)</h3>
+              <span class="university">University of Law</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£18,500 / £15,500</span>
+              <span class="duration">12 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="other">
+            <div class="course-header">
+              <h3>MBA (Dissertation Only)</h3>
+              <span class="university">West of Scotland</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£3,450</span>
+              <span class="duration">6 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="other">
+            <div class="course-header">
+              <h3>BA HONS Global Business</h3>
+              <span class="university">West of Scotland</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£3,950</span>
+              <span class="duration">9 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="other">
+            <div class="course-header">
+              <h3>DBA – Advanced Entry Programme</h3>
+              <span class="university">Westcliff, USA</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">USD 200/credit (30)</span>
+              <span class="duration">Programme-Based</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+
+          <div class="course-card" data-filter="other">
+            <div class="course-header">
+              <h3>BSc HONS Business Management</h3>
+              <span class="university">Bolton / Greater Manchester</span>
+            </div>
+            <div class="course-details">
+              <span class="fee">£4,300</span>
+              <span class="duration">12 Months</span>
+            </div>
+            <a href="apply.html" class="btn btn-small">Enquire</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container cta-box">
+        <h2>Ready to Study?</h2>
+        <p>Start your journey with one of our 86 premium courses. Connect with our admissions team today.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="apply.html">Apply Now</a>
+          <a class="btn btn-secondary" href="contact.html">Get More Info</a>
         </div>
       </div>
     </section>
@@ -86,8 +1101,38 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>© 2026 Nexus University. All rights reserved.</p>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Nexus University</h3>
+          <p>Premium global education solutions with 86 courses from leading British universities.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Contact</h3>
+          <p>📞 076 724 4000 | 063 896 6617<br />✉️ Nxvarsity@gmail.com<br />📍 79 Alberts Street</p>
+        </div>
+        <div class="footer-section">
+          <p><small>Reg No: 2019/015173/07 | Accred: 25 OA0230368 EAHEA</small></p>
+        </div>
+      </div>
     </div>
   </footer>
+
+  <script>
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', function() {
+        const filter = this.getAttribute('data-filter');
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+        
+        document.querySelectorAll('.course-card').forEach(card => {
+          if (filter === 'all' || card.getAttribute('data-filter') === filter) {
+            card.style.display = 'block';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
 </body>
 </html>
