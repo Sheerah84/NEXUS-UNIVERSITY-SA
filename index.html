@@ -1,45 +1,148 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nexus University</title>
-  <link rel="stylesheet" href="style.css.css">
+  <link rel="stylesheet" href="style.css.css" />
 </head>
 <body>
-  <header>
-    <img src="logo.png" alt="Nexus Logo" width="150">
-    <h1>Welcome to Nexus University</h1>
-    <nav>
-      <a href="index.html">Home</a> |
-      <a href="courses.html">Courses</a> |
-      <a href="scholarships.html">Scholarships</a> |
-      <a href="apply.html">Apply Now</a> |
-      <a href="media.html">Media</a> |
-      <a href="contact.html">Contact</a> |
-      <a href="about.html">About Us</a>
-    </nav>
+  <header class="site-header">
+    <div class="container nav">
+      <div class="brand"><span class="brand-mark">NX</span> Nexus University</div>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="courses.html">Courses</a>
+        <a href="scholarships.html">Scholarships</a>
+        <a href="apply.html">Apply Now</a>
+        <a href="media.html">Media</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About Us</a>
+      </nav>
+    </div>
   </header>
 
-  <section>
-    <h2>Our Visionary Leader</h2>
-    <img src="president.jpg" alt="President Portrait" width="300">
-    <p>Driven by vision and changing lives.</p>
-  </section>
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Driven by vision</span>
+          <h1>Changing lives through world-class learning.</h1>
+          <p>
+            Nexus University helps students access global opportunities, quality education,
+            and life-changing pathways in study, careers, and leadership.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="apply.html">Apply Today</a>
+            <a class="btn btn-secondary" href="courses.html">Explore Courses</a>
+          </div>
+          <div class="stats-row">
+            <div class="stat-card">
+              <strong>80+</strong>
+              <span>Programmes</span>
+            </div>
+            <div class="stat-card">
+              <strong>6+</strong>
+              <span>Countries</span>
+            </div>
+            <div class="stat-card">
+              <strong>100%</strong>
+              <span>Student Focus</span>
+            </div>
+          </div>
+        </div>
 
-  <section>
-    <h2>Program Flyers</h2>
-    <img src="programme1.jpg" alt="Programme Flyer 1" width="400">
-    <img src="programme2.jpg" alt="Programme Flyer 2" width="400">
-  </section>
+        <div class="hero-visual">
+          <div class="portrait-card">
+            <div class="portrait-placeholder">President</div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <section>
-    <h2>Introduction Video</h2>
-    <video width="600" controls>
-      <source src="intro.mp4" type="video/mp4">
-    </video>
-  </section>
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow dark">Why choose us</span>
+          <h2>Opportunity built around your future.</h2>
+        </div>
 
-  <footer>
-    <p>&copy; 2026 Nexus University. All rights reserved.</p>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="icon">01</div>
+            <h3>Global Pathways</h3>
+            <p>Guidance for study opportunities across leading international destinations.</p>
+          </article>
+          <article class="feature-card">
+            <div class="icon">02</div>
+            <h3>Career Readiness</h3>
+            <p>Programs designed to align academic success with practical outcomes.</p>
+          </article>
+          <article class="feature-card">
+            <div class="icon">03</div>
+            <h3>Support & Guidance</h3>
+            <p>From applications to scholarships, we walk the journey with you.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow dark">Featured programmes</span>
+          <h2>Program flyers and opportunities.</h2>
+        </div>
+
+        <div class="card-grid">
+          <article class="program-card">
+            <div class="program-image program-one"></div>
+            <div class="program-body">
+              <h3>Programme 1</h3>
+              <p>Career-focused learning with practical and international relevance.</p>
+            </div>
+          </article>
+
+          <article class="program-card">
+            <div class="program-image program-two"></div>
+            <div class="program-body">
+              <h3>Programme 2</h3>
+              <p>Flexible opportunities designed for ambitious student journeys.</p>
+            </div>
+          </article>
+
+          <article class="program-card">
+            <div class="program-image program-three"></div>
+            <div class="program-body">
+              <h3>Programme 3</h3>
+              <p>Academic pathways that open doors to leadership and growth.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container video-wrap">
+        <div class="section-heading left">
+          <span class="eyebrow dark">Introduction</span>
+          <h2>Meet Nexus University.</h2>
+        </div>
+
+        <div class="video-box">
+          <video controls preload="metadata">
+            <source src="intro.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Nexus University. All rights reserved.</p>
+    </div>
   </footer>
 </body>
 </html>
